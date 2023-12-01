@@ -1,0 +1,36 @@
+{
+  "name": "@hienpham512/angouleme-types",
+  "version": "1.1.3",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/voltrol-epitech-angouleme/types.git"
+  },
+  "author": "hienpham512 <thi-hien.pham@epitech.eu>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "typescript": "^5.1.3"
+  },
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/voltrol-epitech-angouleme/types/issues"
+  },
+  "homepage": "https://github.com/voltrol-epitech-angouleme/types#readme",
+  "devDependencies": {}
+}
